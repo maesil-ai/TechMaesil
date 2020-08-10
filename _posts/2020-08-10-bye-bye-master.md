@@ -73,7 +73,7 @@ remote/upstream이 없을때는 그냥 `git branch -m master main`으로 할 수
 3. master를 삭제하고 upstream remote의 HEAD를 업데이트한다.
 
    ```shell
-   git push origin --delete
+   git push origin --delete master
    git remote set-head origin -a
    ```
 

@@ -77,7 +77,7 @@ remote/upstream이 없을때는 그냥 `git branch -m master main`으로 할 수
    git remote set-head origin -a
    ```
 
-### 이미 바뀐 브랜치 이름으로 꾸는 법
+### 이미 바뀐 브랜치 이름으로 바꾸는 법
 
 공동으로 작업을 하고 있다면 다른 사람 역시 간단한 작업을 통해서 바꿔 줄 수 있다.
 

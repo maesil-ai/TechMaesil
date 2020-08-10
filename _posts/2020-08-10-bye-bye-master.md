@@ -83,7 +83,7 @@ remote/upstream이 없을때는 그냥 `git branch -m master main`으로 할 수
 
 ```shell
 git fetch --all
-git retmoe set-head origin -a
+git remote set-head origin -a
 git branch --set-upstream-to origin/main
 git branch -m master main
 ```
